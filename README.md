@@ -5,24 +5,19 @@ The injection model has been tested in OpenFOAM-v2212
 
 Usage:
 
-In controlDict:
+Add in controlDict:
 
-//-----------------------------------//
 libs
 (
     "libmyConeInjection.so"
 );
-//-----------------------------------//
 
 
+Modify in sprayCloudProperties/subModels/injectionModels/:
 
-In sprayCloudProperties/subModels/injectionModels/:
-
-//-----------------------------------//
 Injectors
 {
     type       myConeInjection;
     ................
 }
-//-----------------------------------//
 
