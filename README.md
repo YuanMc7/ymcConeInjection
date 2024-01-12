@@ -6,6 +6,13 @@ The injection model has been tested in OpenFOAM-v2212
 Usage:
 
 
+Compile:
+
+     wclean
+
+     wmake
+
+
 Add in controlDict:
 
 libs
