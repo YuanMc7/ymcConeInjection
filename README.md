@@ -6,14 +6,14 @@ The injection model has been tested in OpenFOAM-v2212
 Usage:
 
 
-Compile:
+1. Compile:
 
      wclean
 
      wmake
 
 
-Add in controlDict:
+2. Add in controlDict:
 
 libs
 (
@@ -21,7 +21,7 @@ libs
 );
 
 
-Modify in sprayCloudProperties/subModels/injectionModels/:
+3. Modify in sprayCloudProperties/subModels/injectionModels/:
 
 Injectors
 {
