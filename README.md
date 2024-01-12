@@ -6,6 +6,7 @@ The injection model has been tested in OpenFOAM-v2212
 Usage:
 
 In controlDict:
+
 //-----------------------------------//
 libs
 (
@@ -13,7 +14,10 @@ libs
 );
 //-----------------------------------//
 
+
+
 In sprayCloudProperties/subModels/injectionModels/:
+
 //-----------------------------------//
 Injectors
 {
