@@ -8,24 +8,24 @@ Usage:
 
 1. Compile:
 
-     wclean
+   wclean
 
-     wmake
+   wmake
 
 
 2. Add in controlDict:
 
-libs
-(
-    "libmyConeInjection.so"
-);
+   libs
+   (
+       "libmyConeInjection.so"
+   );
 
 
 3. Modify in sprayCloudProperties/subModels/injectionModels/:
 
-Injectors
-{
-    type       myConeInjection;
-    ................
-}
+   Injectors
+   {
+       type        myConeInjection;
+       ................
+   }
 
