@@ -23,9 +23,9 @@ libs
 
 Modify in sprayCloudProperties/subModels/injectionModels/:
 
-"Injectors
+Injectors
 {
     type       myConeInjection;
     ................
-}"
+}
 
